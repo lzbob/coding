@@ -22,8 +22,7 @@ public class Main {
     private static void runLastQuestion() {
         InterviewQuestion question = questions.getLast();
         System.out.println("************** Start **************");
-        question.printQuestion();
-        question.printSolution();
+        question.doIt();
         System.out.println("************** End **************");
     }
 
@@ -31,8 +30,7 @@ public class Main {
         for(int i = 0; i < questions.size(); i++) {
             InterviewQuestion question = questions.get(i);
             System.out.println("************** Start **************");
-            question.printQuestion();
-            question.printSolution();
+            question.doIt();
             System.out.println("************** End **************");
         }
     }

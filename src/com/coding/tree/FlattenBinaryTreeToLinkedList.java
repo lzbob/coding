@@ -4,15 +4,12 @@ import com.coding.InterviewQuestion;
 import java.util.Stack;
 /**
  * Created by liuzhn on 10/27/14.
+ * https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
+ * Given a binary tree, flatten it to a linked list in-place.
  */
 public class FlattenBinaryTreeToLinkedList implements InterviewQuestion {
 
-    public void printQuestion() {
-        System.out.println("Given a binary tree, flatten it to a linked list in-place.");
-        System.out.println("https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/");
-    }
-
-    public void printSolution() {
+    public void doIt() {
         System.out.println("Go down through the left, when right is not null, push right to stack.");
     }
 
