@@ -1,5 +1,7 @@
 package com.coding;
 
+import java.util.HashMap;
+
 /**
  * Created by liuzhn on 1/29/15.
  */
@@ -34,4 +36,5 @@ public class Utility {
         }
         System.out.print("\n");
     }
+
 }

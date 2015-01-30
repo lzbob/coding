@@ -2,7 +2,9 @@ package com.coding;
 
 import java.util.LinkedList;
 
+import com.coding.DataStructure.O1DataStructure;
 import com.coding.array.SortArraySmallBigSmall;
+import com.coding.dp.WordBreak;
 import com.coding.stack.*;
 import com.coding.string.LongestPalindrome;
 
@@ -15,6 +17,8 @@ public class Main {
         questions.add(new PolishNotation());
         questions.add(new LongestPalindrome());
         questions.add(new SortArraySmallBigSmall());
+        questions.add(new O1DataStructure());
+        questions.add(new WordBreak());
         // write your code here
         runLastQuestion();
     }
