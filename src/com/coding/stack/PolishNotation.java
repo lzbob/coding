@@ -16,7 +16,7 @@ public class PolishNotation implements InterviewQuestion{
         System.out.println("Example: [\"4\", \"13\", \"5\", \"/\", \"+\"] -> (4 + (13 / 5)) -> 6");
     }
 
-    public void printSolution() {
+    public void doIt() {
         String[] tokens = new String[] {"2", "1", "+", "3", "*"};
         int result = evalPolishNotation(tokens);
         if(result == 9)

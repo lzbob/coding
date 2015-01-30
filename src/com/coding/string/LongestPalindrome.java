@@ -11,11 +11,7 @@ import com.coding.InterviewQuestion;
  */
 public class LongestPalindrome implements InterviewQuestion {
 
-    public void printQuestion() {
-        System.out.println("Find longest palindromic substring");
-    }
-
-    public void printSolution() {
+    public void doIt() {
         this.findLongestPalindrome("cgakdjasdkcbakjcbaskcbjbsadh");
     }
 
