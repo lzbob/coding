@@ -10,7 +10,7 @@ import com.coding.InterviewQuestion;
  * If the two array is odd, find the kth, other wise, find k + (k+1)/2
  *
  * How to find the kth elements in two sorted array?
- * 
+ *
  */
 public class MedianTwoArray implements InterviewQuestion {
 

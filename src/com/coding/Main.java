@@ -3,6 +3,7 @@ package com.coding;
 import java.util.LinkedList;
 
 import com.coding.DataStructure.O1DataStructure;
+import com.coding.algorithms.WordLadder;
 import com.coding.array.MedianTwoArray;
 import com.coding.array.SortArraySmallBigSmall;
 import com.coding.dp.LongestIncreasingSubsequence;
@@ -23,6 +24,7 @@ public class Main {
         questions.add(new WordBreak());
         questions.add(new LongestIncreasingSubsequence());
         questions.add(new MedianTwoArray());
+        questions.add(new WordLadder());
         // write your code here
         runLastQuestion();
     }
