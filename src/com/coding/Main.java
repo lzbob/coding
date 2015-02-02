@@ -3,7 +3,9 @@ package com.coding;
 import java.util.LinkedList;
 
 import com.coding.DataStructure.O1DataStructure;
+import com.coding.array.MedianTwoArray;
 import com.coding.array.SortArraySmallBigSmall;
+import com.coding.dp.LongestIncreasingSubsequence;
 import com.coding.dp.WordBreak;
 import com.coding.stack.*;
 import com.coding.string.LongestPalindrome;
@@ -19,6 +21,8 @@ public class Main {
         questions.add(new SortArraySmallBigSmall());
         questions.add(new O1DataStructure());
         questions.add(new WordBreak());
+        questions.add(new LongestIncreasingSubsequence());
+        questions.add(new MedianTwoArray());
         // write your code here
         runLastQuestion();
     }
