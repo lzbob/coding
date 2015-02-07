@@ -3,11 +3,11 @@ package com.coding;
 import java.util.LinkedList;
 
 import com.coding.DataStructure.O1DataStructure;
+import com.coding.dp.*;
+import com.coding.algorithms.RegularExpression;
 import com.coding.algorithms.WordLadder;
 import com.coding.array.MedianTwoArray;
 import com.coding.array.SortArraySmallBigSmall;
-import com.coding.dp.LongestIncreasingSubsequence;
-import com.coding.dp.WordBreak;
 import com.coding.stack.*;
 import com.coding.string.LongestPalindrome;
 
@@ -25,6 +25,10 @@ public class Main {
         questions.add(new LongestIncreasingSubsequence());
         questions.add(new MedianTwoArray());
         questions.add(new WordLadder());
+        questions.add(new RegularExpression());
+        questions.add(new DecodeWays());
+        questions.add(new ClimbStairs());
+        questions.add(new LongestCommonSubsequence());
         // write your code here
         runLastQuestion();
     }
