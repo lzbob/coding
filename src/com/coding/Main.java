@@ -3,6 +3,7 @@ package com.coding;
 import java.util.LinkedList;
 
 import com.coding.DataStructure.O1DataStructure;
+import com.coding.algorithms.MinimumWindowSubstring;
 import com.coding.dp.*;
 import com.coding.algorithms.RegularExpression;
 import com.coding.algorithms.WordLadder;
@@ -29,6 +30,7 @@ public class Main {
         questions.add(new DecodeWays());
         questions.add(new ClimbStairs());
         questions.add(new LongestCommonSubsequence());
+        questions.add(new MinimumWindowSubstring());
         // write your code here
         runLastQuestion();
     }
