@@ -2,7 +2,12 @@ package com.coding;
 
 import java.util.LinkedList;
 
-import com.coding.array.PeakElement;
+import com.coding.DataStructure.O1DataStructure;
+import com.coding.algorithms.MinimumWindowSubstring;
+import com.coding.dp.*;
+import com.coding.algorithms.RegularExpression;
+import com.coding.algorithms.WordLadder;
+import com.coding.array.MedianTwoArray;
 import com.coding.array.SortArraySmallBigSmall;
 import com.coding.stack.*;
 import com.coding.string.LongestPalindrome;
@@ -16,7 +21,16 @@ public class Main {
         questions.add(new PolishNotation());
         questions.add(new LongestPalindrome());
         questions.add(new SortArraySmallBigSmall());
-        questions.add(new PeakElement());
+        questions.add(new O1DataStructure());
+        questions.add(new WordBreak());
+        questions.add(new LongestIncreasingSubsequence());
+        questions.add(new MedianTwoArray());
+        questions.add(new WordLadder());
+        questions.add(new RegularExpression());
+        questions.add(new DecodeWays());
+        questions.add(new ClimbStairs());
+        questions.add(new LongestCommonSubsequence());
+        questions.add(new MinimumWindowSubstring());
         // write your code here
         runLastQuestion();
     }
