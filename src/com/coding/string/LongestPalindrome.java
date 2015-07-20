@@ -12,7 +12,7 @@ import com.coding.InterviewQuestion;
 public class LongestPalindrome implements InterviewQuestion {
 
     public void doIt() {
-        this.findLongestPalindrome("cgakdjasdkcbakjcbaskcbjbsadh");
+        this.findLongestPalindrome("abaccbac");
     }
 
     private void findLongestPalindrome(String str) {

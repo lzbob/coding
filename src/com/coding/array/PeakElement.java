@@ -10,11 +10,11 @@ public class PeakElement implements InterviewQuestion {
     public void doIt() {
         int[] arr = new int[] {3,6,4,51,2};
         int result = findPeakElement(arr);
-        system.out.printlin(result);
+        System.out.println(result);
     }
 
     private int findPeakElement(int[] arr) {
-
+        return 1;
     }
 
 }

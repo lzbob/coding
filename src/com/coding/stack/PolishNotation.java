@@ -64,6 +64,8 @@ public class PolishNotation implements InterviewQuestion{
             }
         }
         returnValue = Integer.valueOf(stack.pop());
+        System.out.println("5");
+        
 
         return returnValue;
     }
