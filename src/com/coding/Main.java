@@ -9,6 +9,7 @@ import com.coding.dp.*;
 import com.coding.array.MedianTwoArray;
 import com.coding.array.SortArraySmallBigSmall;
 import com.coding.stack.*;
+import com.coding.string.LengthOfLastWord;
 import com.coding.string.LongestPalindrome;
 import com.coding.string.StringToInte;
 
@@ -33,6 +34,7 @@ public class Main {
         questions.add(new MinimumWindowSubstring());
         questions.add(new RotateArray());
         questions.add(new LongestPalindrome());
+        questions.add(new TwoSum());
         questions.add(new TwoSum());
         questions.add(new LongPanlin());
         questions.add(new ThreeSum());

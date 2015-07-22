@@ -13,6 +13,7 @@ public class LengthOfLastWord implements InterviewQuestion{
         for(i = len-1; i >= 0; i--) {
             if((s.charAt(i)> 'a' && s.charAt(i)< 'z') || (s.charAt(i)> 'A' && s.charAt(i)< 'Z')) {
                 result++;
+                System.out.println(result);
             } else {
                 System.out.println(result);
                 return;
