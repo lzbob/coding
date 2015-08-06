@@ -4,6 +4,8 @@ import java.util.LinkedList;
 
 import com.coding.DataStructure.O1DataStructure;
 import com.coding.algorithms.*;
+import com.coding.array.*;
+import com.coding.array.PeakElement;
 import com.coding.array.ThreeSum;
 import com.coding.dp.*;
 import com.coding.array.MedianTwoArray;
@@ -37,7 +39,9 @@ public class Main {
         questions.add(new TwoSum());
         questions.add(new LongPanlin());
         questions.add(new ThreeSum());
-        questions.add(new Isomorphic());
+        questions.add(new PeakElement());
+        questions.add(new RemoveElement());
+        questions.add(new Pascal());
 
 
         // write your code here
